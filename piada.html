@@ -1,9 +1,26 @@
 <html>
 
+<script>
+
+    setTimeout(() => document.querySelector('#hidden').textContent = 'TEXTO SECRETO APARECENDO DO NADA', 5000);
+</script>
+
+
+<style>
+    #hidden {
+        color: red;
+    }
+
+    * {
+        font-size: 30px;
+    }
+</style>
+
 <body>
     Deixa de ser stalker, o repolho vai para onde quiser, ele precisa de privacidade.<br><br>
     <img src="img/image.png"><br><br>
-    <a href="index.html">Volta</a>
+    <a href="index.html">Voltar</a><br><br>
+    <div id="hidden"></div>
 </body>
 
 </html>
