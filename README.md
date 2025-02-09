@@ -1,3 +1,0 @@
-# kosonome.github.io
-
-teste
